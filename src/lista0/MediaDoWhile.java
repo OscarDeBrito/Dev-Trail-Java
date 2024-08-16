@@ -1,3 +1,5 @@
+package src.lista0;
+
 import java.util.Scanner;
 
 public class MediaDoWhile {

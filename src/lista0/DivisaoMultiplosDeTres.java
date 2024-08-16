@@ -1,3 +1,5 @@
+package src.lista0;
+
 public class DivisaoMultiplosDeTres {
     public static void main(String[] args) {
         double resultadoDouble;

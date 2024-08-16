@@ -1,3 +1,5 @@
+package src.lista0;
+
 public class CombinacaoDados {
     public static void main(String[] args) {
         System.out.println("Possibilidades:");

@@ -1,3 +1,5 @@
+package src.lista0;
+
 public class Divisao {
     public static void main(String[] args) {
         double primeira = 6;
