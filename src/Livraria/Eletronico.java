@@ -1,7 +1,7 @@
 package src.Livraria;
 
 public class Eletronico extends Livro {
-    private int tamanho; // Tamanho do arquivo em KB
+    private int tamanho;
 
     public Eletronico(String titulo, String autores, String editora, double preco, int tamanho) {
         super(titulo, autores, editora, preco);

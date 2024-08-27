@@ -18,11 +18,13 @@ public class Venda {
         if (index >= 0 && index < livros.length) {
             livros[index] = l;
             valor += l.getPreco();
+            if (l instanceof Impresso) {
+                ((Impresso) l).atualizarEstoque();
+            }
         } else {
-            System.out.println("Index inválido para adicionar o livro.");
+            System.out.println("Índice inválido para adicionar o livro.");
         }
     }
-
 
     public void listarLivros() {
         System.out.println("Livros na venda número " + numero + ":");
